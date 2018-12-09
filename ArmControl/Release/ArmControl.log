@@ -1,26 +1,51 @@
-﻿Build started 2018/11/27 下午 09:00:18.
+﻿Build started 2018/12/9 下午 04:58:30.
      1>Project "C:\Documents and Settings\q300\桌面\Robotics 2018 Fall Assignment IV\Group 8\ArmControl\ArmControl\ArmControl.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
-         Touching "Release\ArmControl.unsuccessfulbuild".
+         Creating "Release\ArmControl.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include\opencv2 /IC:\opencv\build\include\opencv /IC:\opencv\build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>main.cpp(61): warning C4258: 'i' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
-                 main.cpp(54) : 已忽略 'i' 的定義
-                 main.cpp(47) : 已使用 'i' 的定義
-     1>main.cpp(76): warning C4258: 'i' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
-                 main.cpp(54) : 已忽略 'i' 的定義
-                 main.cpp(47) : 已使用 'i' 的定義
-     1>main.cpp(93): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(93): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(103): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(103): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>main.cpp(249): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>main.cpp(68): warning C4258: 'i' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 main.cpp(61) : 已忽略 'i' 的定義
+                 main.cpp(54) : 已使用 'i' 的定義
+     1>main.cpp(83): warning C4258: 'i' : 已忽略來自 for 迴圈的定義; 使用封閉範圍的定義
+                 main.cpp(61) : 已忽略 'i' 的定義
+                 main.cpp(54) : 已使用 'i' 的定義
+     1>main.cpp(100): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(100): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(110): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(110): warning C4244: '引數' : 將 'float' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>main.cpp(283): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  C:\Program Files\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 請參閱 'getch' 的宣告
-     1>main.cpp(253): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+     1>main.cpp(290): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
                  C:\Program Files\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 請參閱 'getch' 的宣告
-     1>main.cpp(273): warning C4018: '<' : signed/unsigned 不相符
-     1>main.cpp(298): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(295): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 請參閱 'getch' 的宣告
+     1>main.cpp(318): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(348): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(380): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\conio.h(128) : 請參閱 'getch' 的宣告
+     1>main.cpp(400): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(409): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(410): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(411): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(412): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(428): warning C4244: '正在初始化' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(436): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(437): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(438): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(443): warning C4018: '<' : signed/unsigned 不相符
+     1>main.cpp(445): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(446): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(447): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>main.cpp(452): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>main.cpp(454): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>main.cpp(456): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>main.cpp(458): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
        Link:
          C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\q300\桌面\Robotics 2018 Fall Assignment IV\Group 8\ArmControl\Release\ArmControl.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ArmControl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\q300\桌面\Robotics 2018 Fall Assignment IV\Group 8\ArmControl\Release\ArmControl.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\q300\桌面\Robotics 2018 Fall Assignment IV\Group 8\ArmControl\Release\ArmControl.lib" /MACHINE:X86 Release\main.obj
          正在產生程式碼
@@ -35,4 +60,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.28
+Time Elapsed 00:00:02.48
